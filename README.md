@@ -1,6 +1,6 @@
 # tf-helloworld
 
-(not my work!) Follows [this example](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180) from Yevgeniy Brikman.
+Follows [this tutorial](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180).
 
 - tf-helloworld-singleserver (start here) : Use terraform to deploy a single EC2 instance
 
