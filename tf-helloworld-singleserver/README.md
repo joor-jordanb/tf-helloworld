@@ -2,9 +2,9 @@
 
 Follows [this tutorial](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180).
 
-Use terraform to deploy a single EC2 instance
+Use terraform to deploy a single EC2 instance.
 
---- 
+---
 
 ### Quickstart
 
@@ -17,3 +17,10 @@ Use terraform to deploy a single EC2 instance
 - `cd` into the desired project and run `tf init`
 - run `tf plan` to see what terraform interprets and intends to deploy in AWS
 - run `tf apply` to spin up the servers!
+
+---
+
+So you want to learn how to user terraform to create and manage infrastructure with code? This is the place to start-- diagram time! Below shows (more or less) how you can use a simple `main.tf` file to spin up a simple EC2 server. The code in this repo simply loops for http requests and responds with a simple "Hello world!" message. You can use the `outputs` of the `main.tf` file to grab the public IP of the EC2 instance. 
+![terraform single ec2 instance](https://user-images.githubusercontent.com/41012778/42830670-221084de-89ba-11e8-9d7d-902675d626ee.png "Terraform Single EC2 instance")
+
+--- 
