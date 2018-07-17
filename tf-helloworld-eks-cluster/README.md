@@ -14,6 +14,7 @@ Use terraform to deploy an EKS cluster
 - you must grant the user above the following permissions:
   - IAM : [] <-- TODO: get specific roles (stuck on PassRole error, for some reason IAM is blocking)
   - EKS : [] <-- TODO: get specific roles
+  - Quickstart : (not the best option) grant admin access to the IAM user
 - `cd` into the desired project and run `tf init`
 - run `tf plan` to see what terraform interprets and intends to deploy in AWS
 - run `tf apply` to spin up the servers!
